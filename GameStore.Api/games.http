@@ -1,7 +1,7 @@
 GET http://localhost:5189/games
 
 ###
-GET http://localhost:5189/games/4
+GET http://localhost:5189/games/7
 
 ###
 POST http://localhost:5189/games
@@ -16,7 +16,7 @@ Content-Type: application/json
 
 
 ###
-PUT http://localhost:5189/games/4
+PUT http://localhost:5189/games/2
 Content-Type: application/json
 
 {
@@ -25,3 +25,6 @@ Content-Type: application/json
     "price": 14.99,
     "releaseDate": "2017-02-24"
 }
+
+###
+DELETE http://localhost:5189/games/2
